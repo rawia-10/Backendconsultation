@@ -8,7 +8,12 @@ nom:{
     type:String,
 },
 
-
+admin:[
+    {
+        type:Schema.Types.ObjectId,
+        ref:"admin"
+    }
+]
 
 })
 
