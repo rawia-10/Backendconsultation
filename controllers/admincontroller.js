@@ -16,6 +16,7 @@ addadmin:function(req,res){
             genre:req.body.genre,
             date_naissance:req.body.date_naissance,
             rendezvous:req.body.rendezvous,
+            role:req.body.role
             
             });
             admin.save(function(err)

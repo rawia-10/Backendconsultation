@@ -9,7 +9,7 @@ addrole:function(req,res){
         {
           
      nom:req.body.nom,
-     admin:req.body.admin
+  
             });
             role.save(function(err)
             {

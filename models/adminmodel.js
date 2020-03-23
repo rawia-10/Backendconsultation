@@ -6,7 +6,13 @@ const user=require("./usermodel")
 const adminschema=user.discriminator('admin',new mongoose.Schema({   //tjiblna collection min base  de donne
 
  
-
+    role:[
+        {
+            type:Schema.Types.ObjectId,
+            ref:"role"
+        }
+    ]
+    
 
 /* rendezvous:[
     {
